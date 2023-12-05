@@ -273,7 +273,7 @@ main {
   width: 60%;
   height: 100%;
   background: #fff;
-  transform: translateX(300px);
+  transform: translateX(500px);
   transition: transform 0.4s ease-in-out;
 }
 
@@ -328,7 +328,7 @@ main {
 
 @media screen and (max-width: 700px) {
   :root {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   header {

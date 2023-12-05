@@ -326,26 +326,26 @@ main {
   text-align: right;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   :root {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   header {
     justify-content: space-between;
   }
 
-  /* main {
+  main {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr;
     padding: 0;
-  } */
+  }
 
-  /* .hero-info {
+  .hero-info {
     grid-row: 2 / 3;
     align-items: center;
     padding: 20px 0;
-  } */
+  }
   .hero-description {
     text-align: center;
     width: 90vw;
@@ -397,20 +397,8 @@ main {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   :root {
-    font-size: 14px;
-  }
-
-  main {
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: 1fr;
-    padding: 0;
-  }
-
-  .hero-info {
-    grid-row: 2 / 3;
-    align-items: center;
-    padding: 20px 0;
+    font-size: 10px;
   }
 }

@@ -335,11 +335,11 @@ main {
     justify-content: space-between;
   }
 
-  main {
+  /* main {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr;
     padding: 0;
-  }
+  } */
 
   .hero-info {
     grid-row: 2 / 3;
@@ -400,5 +400,11 @@ main {
 @media screen and (max-width: 700px) {
   :root {
     font-size: 14px;
+  }
+
+  main {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    padding: 0;
   }
 }

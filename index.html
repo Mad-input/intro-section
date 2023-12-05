@@ -80,12 +80,15 @@
         <button class="btnOp btn-log">Login</button>
         <button class="btnOp btn-reg">Register</button>
       </div>
+      <button class="btn-menu-mobile" id="openMenu">
+        <img src="./images/icon-menu.svg" alt="icon" />
+      </button>
     </header>
     <main>
       <section class="hero-info">
         <h1 class="hero-title">
-          Make <br />
-          remote work
+          Make
+          <span>remote work</span>
         </h1>
         <p class="hero-description">
           Get your team in sync, no matter your location. <br />
@@ -104,8 +107,82 @@
         <img
           src="./images/image-hero-desktop.png"
           alt="client Make remote work"
+          class="image-desktop"
+        />
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="client"
+          class="image-mobile"
         />
       </section>
     </main>
+    <div class="placeholder-menu-mobile"></div>
+    <section class="menu-mobile">
+      <div>
+        <div class="btn-close">
+          <button class="btn-close-menu-mobile btn-menu-mobile" id="closeMenu">
+            <img
+              src="./images/icon-close-menu.svg"
+              alt="icon"
+              style="stroke: var(--Almost-Black)"
+            />
+          </button>
+        </div>
+
+        <nav class="nav-mobile">
+          <ul class="list-mobile" id="listMobile">
+            <li class="list-item-mobile" data-menu="features">
+              Features
+              <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  fill="none"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+              <ul class="submenu-mobile" data-menu="features">
+                <li>
+                  <img src="./images/icon-todo.svg" alt="icon" /> Todo List
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg" alt="icon" /> Calendar
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="icon" /> Reminders
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="icon" /> Planning
+                </li>
+              </ul>
+            </li>
+            <li class="list-item-mobile" data-menu="company">
+              Company
+              <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  fill="none"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+              <ul class="submenu-mobile" data-menu="company">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li class="list-item-mobile">Careers</li>
+            <li class="list-item-mobile">About</li>
+          </ul>
+          <div class="log-reg-mobile">
+            <button class="btn-lr-mobile btnOp">Login</button>
+            <button class="btn-lr-mobile btnOp btn-reg">Register</button>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
   </body>
 </html>

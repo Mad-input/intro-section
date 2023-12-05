@@ -341,11 +341,11 @@ main {
     padding: 0;
   } */
 
-  .hero-info {
+  /* .hero-info {
     grid-row: 2 / 3;
     align-items: center;
     padding: 20px 0;
-  }
+  } */
   .hero-description {
     text-align: center;
     width: 90vw;
@@ -406,5 +406,11 @@ main {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr;
     padding: 0;
+  }
+
+  .hero-info {
+    grid-row: 2 / 3;
+    align-items: center;
+    padding: 20px 0;
   }
 }
